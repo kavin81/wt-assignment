@@ -1,0 +1,31 @@
+.appointment_parent_container {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+.appointment_child_containers {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 16px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+
+    &:hover {
+        background-color: darkgreen;
+    }
+}
