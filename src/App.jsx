@@ -1,8 +1,7 @@
 import { useState } from "react";
 import "./styles.css";
-import { data } from "./data.json";
 
-const App = () => {
+const App = ({ data }) => {
     const [appointments, setAppointments] = useState(data);
 
     const markAsCompleted = (id) => {
